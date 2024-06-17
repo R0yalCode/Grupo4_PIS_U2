@@ -1,36 +1,36 @@
-#Descripción del Proyecto
+# Descripción del Proyecto
 
 El proyecto se centra en desarrollar un sistema innovador de paneles solares que sean capaces de autodirigirse hacia la posición óptima del sol a lo largo del día. Esta tecnología busca maximizar la eficiencia en la captación de energía solar, crucial en un contexto global donde la transición hacia fuentes renovables es imperativa para mitigar el cambio climático.
 
-####Definición del problema:
+#### Definición del problema:
 El desafío principal radica en optimizar la captación de energía solar a través de un seguimiento automático del sol. Esto implica calcular dinámicamente la posición del sol en el cielo en cualquier momento dado, considerando su movimiento a lo largo del día y del año. Este cálculo continuo es esencial para ajustar la orientación de los paneles solares y asegurar una exposición máxima a la radiación solar, lo que se traduce en una mayor eficiencia energética.
 
-####Objetivos del proyecto:
+#### Objetivos del proyecto:
 El objetivo principal del proyecto es desarrollar un sistema de seguimiento solar preciso y eficiente que pueda implementarse en pequeña escala para aplicaciones cotidianas. Esto incluye proporcionar una metodología detallada basada en el Método SPA (Solar Position Algorithm), el cual permite calcular la posición del sol en función de la fecha, la hora y la ubicación geográfica específicas. Además, se busca integrar componentes eléctricos y algoritmos que gestionen el movimiento de los paneles solares de manera automática, optimizando así su rendimiento energético.
 
-#Requisitos
+# Requisitos
 
-####Requisitos de Software:
+#### Requisitos de Software:
 
-######Sistema Operativo
+###### Sistema Operativo
 El programa está diseñado para ser ejecutado en un entorno que soporte compiladores de C estándar, como Windows.
-######Compilador de C
+###### Compilador de C
 Se requiere un compilador de C compatible (por ejemplo, GCC en Windows o cualquier compilador que admita las bibliotecas estándar utilizadas).
 ######Bibliotecas estándar de C
 Las bibliotecas estándar utilizadas (stdio.h, time.h, math.h) deben estar disponibles y ser accesibles para el compilador.
-######Biblioteca windows.h
+###### Biblioteca windows.h
 Específicamente requerida si se está desarrollando para el entorno Windows para algunas funciones relacionadas con el tiempo.
-####Requisitos de Hardware
+#### Requisitos de Hardware
 
-######Plataforma Arduino
+###### Plataforma Arduino
 
 - Se necesitaría un Arduino uno R3
 - Conexiones eléctricas adecuadas y conocimientos de cómo cargar y ejecutar el código en un Arduino.
 
-######Servomotor
+###### Servomotor
 - Dos servomotores para el seguimiento solar, que se moverá para orientar el panel solar hacia la posición óptima.
 
-######Placa de Protoboard
+###### Placa de Protoboard
 - Una placa de protoboard para montar los componentes de forma provisional y facilitar las conexiones.
 
 ###### Cables y Conectores
@@ -40,13 +40,13 @@ Específicamente requerida si se está desarrollando para el entorno Windows par
 - Para cargar el código en la placa Arduino, necesitarás una computadora con un puerto USB estándar.
 - Instalación previa del entorno de desarrollo integrado (IDE) de Arduino en tu computadora.
 
-#####Detalles Adicionales:
+##### Detalles Adicionales:
 
 - El programa hace uso intensivo de operaciones matemáticas estándar y trigonométricas, por lo que un hardware capaz de manejar estas operaciones de manera eficiente sería ideal.
 - Para la simulación y desarrollo en un entorno de escritorio, una computadora con suficiente capacidad de procesamiento y memoria para compilar y ejecutar el código sería adecuada.
 
 
-#Instrucciones de Instalación
+# Instrucciones de Instalación
 ### Pasos para Clonar y Compilar
 ###### Clonar el Repositorio:
 Abre Visual Studio Code y clona el repositorio que contiene el código del proyecto:
@@ -65,12 +65,12 @@ Cambia al directorio del proyecto clonado utilizando el comando "cd".
 - Utiliza las funciones integradas de Visual Studio Code para compilar y ejecutar el código.
 
 
-#Uso
-##Ejecución del Programa
-####Compilación del Programa:
+# Uso
+## Ejecución del Programa
+#### Compilación del Programa:
 Asegúrate de haber compilado el programa según las instrucciones proporcionadas en la sección anterior. Esto generará el ejecutable que podrás utilizar para ejecutar el programa principal.
 
-####Ejecución del Programa:
+#### Ejecución del Programa:
 Desde la terminal o línea de comandos, navega hasta el directorio donde se encuentra el ejecutable compilado. Luego, ejecuta el programa con el siguiente comando:
 
 
